@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Sports Wear - High-Performance Athletic Apparel</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .logo {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 0.5em;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1.5em;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ddd;
+        }
+        .hero {
+            background-image: url('path/to/your/hero-image.jpg'); /* Replace with your image path */
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 5em 0;
+        }
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 1.5em;
+        }
+        .button {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 0.8em 1.5em;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .featured-products {
+            padding: 2em;
+            text-align: center;
+        }
+        .featured-products h2 {
+            font-size: 2em;
+            margin-bottom: 1em;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product-item {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+        }
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .product-item h3 {
+            font-size: 1.2em;
+            margin-bottom: 0.5em;
+        }
+        .about-us {
+            background-color: #f0f0f0;
+            padding: 3em 2em;
+            text-align: center;
+        }
+        .about-us h2 {
+            font-size: 2em;
+            margin-bottom: 1em;
+        }
+        .about-us p {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5em 0;
+            background-color: #222;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Royal Sports Wear</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>High-Performance Sports Apparel for Every Athlete</h1>
+            <p>Discover premium quality sportswear designed to enhance your performance and style.</p>
+            <a href="#" class="button">Shop Now</a>
+        </div>
+    </section>
+
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="path/to/your/product1.jpg" alt="Product 1">
+                <h3>Performance Running Tee</h3>
+                <p>Lightweight and breathable for maximum comfort.</p>
+                <a href="#" class="button small">View Details</a>
+            </div>
+            <div class="product-item">
+                <img src="path/to/your/product2.jpg" alt="Product 2">
+                <h3>Durable Training Shorts</h3>
+                <p>Designed for intense workouts and flexibility.</p>
+                <a href="#" class="button small">View Details</a>
+            </div>
+            <div class="product-item">
+                <img src="path/to/your/product3.jpg" alt="Product 3">
+                <h3>Comfort Fit Hoodie</h3>
+                <p>Perfect for warm-ups, cool-downs, or everyday wear.</p>
+                <a href="#" class="button small">View Details</a>
+            </div>
+            </div>
+    </section>
+
+    <section class="about-us">
+        <h2>About Royal Sports Wear</h2>
+        <p>At Royal Sports Wear, we are passionate about providing athletes of all levels with high-quality, innovative sportswear. Based in Sialkot, Punjab, Pakistan, the heart of sports goods manufacturing, we combine expert craftsmanship with the latest fabric technologies to create apparel that performs as hard as you do. Our mission is to empower your athletic journey with comfortable, durable, and stylish gear.</p>
+        <p>We are committed to quality and customer satisfaction. Explore our range and experience the Royal difference!</p>
+        <a href="#" class="button">Learn More About Us</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Royal Sports Wear. All rights reserved.</p>
+    </footer>
+</body>
+</html>
